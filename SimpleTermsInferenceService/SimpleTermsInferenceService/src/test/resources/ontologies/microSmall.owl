@@ -1,0 +1,632 @@
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+
+
+Ontology: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms>
+
+
+Annotations: 
+    rdfs:seeAlso "Based on NCBI taxonomy
+http://www.ncbi.nlm.nih.gov/taxonomy"
+
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#teleomorph>
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#equivalentName>
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#blastName>
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools>
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#scientificName>
+
+    
+AnnotationProperty: rdfs:seeAlso
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym>
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#authorityName>
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#genbankSynonym>
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#genbankAcronym>
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#genbankAnamorph>
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#anamorph>
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#typeMaterial>
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#acronym>
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#inPartName>
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#genbankCommonName>
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#unknown>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#misnomer>
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#includesName>
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#misspelling>
+
+    
+AnnotationProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#commonName>
+
+    
+Datatype: xsd:integer
+
+    
+Datatype: xsd:string
+
+    
+Datatype: rdf:PlainLiteral
+
+    
+DataProperty: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>
+
+    Characteristics: 
+        Functional
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo72274>
+
+    Annotations: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#inPartName> "gamma-3 proteobacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Pseudomonadales"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Pseudomonadales Orla-Jensen 1921"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Pseudomonaceae/Moraxellaceae group"^^xsd:string,
+        rdfs:label "Pseudomonadales"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1236>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo548>
+
+    Annotations: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#misspelling> "Aerobacter aerogenes."^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#misnomer> "Klebsiella pneumoniae aerogenes"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Enterobacter_aerogenes"^^xsd:string,
+        rdfs:label "Enterobacter aerogenes"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Aerobacter aerogenes"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#genbankSynonym> "Klebsiella mobilis"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#misnomer> "Klebsiella aerogenes"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo547>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Gram_Negative>
+
+    Annotations: 
+        rdfs:label "Gram-Negative"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Gram_Negative"^^xsd:string
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo136841>
+
+    Annotations: 
+        rdfs:label "Pseudomonas aeruginosa group"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Pseudomonas_aeruginosa_group"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo286>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo135621>
+
+    Annotations: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Pseudomonadaceae Winslow et al. 1917"^^xsd:string,
+        rdfs:label "Pseudomonadaceae"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Pseudomonadaceae"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo72274>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1350>
+
+    Annotations: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Enterococcus"^^xsd:string,
+        rdfs:label "Enterococcus"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo81852>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo131567>
+
+    Annotations: 
+        rdfs:label "cellular organisms"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "biota"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Cellular_organisms"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1239>
+
+    Annotations: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Clostridium group firmicutes"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#commonName> "low G+C Gram-positive bacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Firmicutes"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "clostridial firmicutes"^^xsd:string,
+        rdfs:label "Firmicutes"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Bacillus/Clostridium group"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#misspelling> "Gram positive bacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Firmacutes"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Low G+C firmicutes"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#genbankCommonName> "Gram-positive bacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#commonName> "low GC Gram+"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#blastName> "firmicutes"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo2>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo2>
+
+    Annotations: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#inPartName> "Procaryotae"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#inPartName> "Prokaryotae"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#inPartName> "Monera"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#genbankCommonName> "eubacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#blastName> "bacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#inPartName> "Prokaryota"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Bacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#inPartName> "prokaryote"^^xsd:string,
+        rdfs:label "Bacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "not Bacteria Haeckel 1894"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#inPartName> "prokaryotes"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo131567>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1>
+
+    Annotations: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Root"^^xsd:string,
+        rdfs:label "root"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "all"^^xsd:string
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo186826>
+
+    Annotations: 
+        rdfs:label "Lactobacillales"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Lactobacillales"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo91061>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo91347>
+
+    Annotations: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Enterobacteriaceae and related endosymbionts"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Enterobacteriales"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Enterobacteriaceae group"^^xsd:string,
+        rdfs:label "Enterobacteriales"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#inPartName> "gamma-3 proteobacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#blastName> "enterobacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "'Enterobacteriales'"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1236>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo287>
+
+    Annotations: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Pseudomonas polycolor"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#misspelling> "Peudomonas aeruginosa"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "probable synonym or variety: Pseudomonas polycolor Clara 1930"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Bacillus aeruginosus"^^xsd:string,
+        rdfs:label "Pseudomonas aeruginosa"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Bacterium pyocyaneum"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Micrococcus pyocyaneus"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Pseudomonas pyocyanea"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Bacillus pyocyaneus"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Pseudomonas_aeruginosa"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Bacterium aeruginosum"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nonfermentative>,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Gram_Negative>,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo136841>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo286>
+
+    Annotations: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "RNA similarity group I"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#misspelling> "Peudomonas"^^xsd:string,
+        rdfs:label "Pseudomonas"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Loefflerella"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Pseudomonas"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Liquidomonas"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo135621>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1224>
+
+    Annotations: 
+        rdfs:label "Proteobacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Proteobacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#commonName> "purple bacteria and relatives"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#commonName> "purple photosynthetic bacteria and relatives"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#commonName> "purple non-sulfur bacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#commonName> "purple photosynthetic bacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#blastName> "proteobacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#commonName> "purple bacteria"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo2>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo543>
+
+    Annotations: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Enterobacteraceae"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Enterobacteraceae (ex Lapage 1979) Lapage 1982, fam. nov., nom. rev."^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Enterobacteriaceae"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#inPartName> "gamma-3 proteobacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Enterobacteriaceae (ex Rahn 1937) Ewing et al. 1980, fam. nov., nom. rev."^^xsd:string,
+        rdfs:label "Enterobacteriaceae"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Enterobacteriaceae Rahn 1937"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo91347>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo562>
+
+    Annotations: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#misspelling> "Eschericia coli"^^xsd:string,
+        rdfs:label "Escherichia coli"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Bacterium coli"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Enterococcus coli"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Bacillus coli"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#misspelling> "Escherchia coli"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Bacterium coli commune"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Escherichia_coli"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#equivalentName> "Escherichia/Shigella coli"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo561>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo561>
+
+    Annotations: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Escherichia"^^xsd:string,
+        rdfs:label "Escherichia"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#misspelling> "Escherchia"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo543>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo91061>
+
+    Annotations: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Bacillus/Lactobacillus/Streptococcus group"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Bacilli"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Firmibacteria"^^xsd:string,
+        rdfs:label "Bacilli"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1239>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo81852>
+
+    Annotations: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Enterococcaceae"^^xsd:string,
+        rdfs:label "Enterococcaceae"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo186826>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1351>
+
+    Annotations: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Micrococcus zymogenes"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Enterococcus_faecalis"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#misspelling> "Enterococcus feacalis"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Streptococcus liquefaciens"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Enterococcus proteiformis"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Streptococcus faecalis"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Micrococcus ovalis"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Streptococcus glycerinaceus"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Enterocoque"^^xsd:string,
+        rdfs:label "Enterococcus faecalis"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1350>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo547>
+
+    Annotations: 
+        rdfs:label "Enterobacter"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Cloaca Castellani and Chalmers 1919"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Enterobacter"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Cloaca"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo543>
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nonfermentative>
+
+    Annotations: 
+        rdfs:label "Nonfermentative"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Nonfermentative"^^xsd:string
+    
+    
+Class: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1236>
+
+    Annotations: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Purple bacteria, gamma subdivision"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "gamma proteobacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "gamma subgroup"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#blastName> "g-proteobacteria"^^xsd:string,
+        rdfs:label "Gammaproteobacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Proteobacteria gamma subdivision"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#labelDrools> "Gammaproteobacteria"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "gamma subdivision"^^xsd:string,
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#synonym> "Gammaproteobacteria Garrity et al. 2005"^^xsd:string
+    
+    SubClassOf: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1224>
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Enterobacteriaceae>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo543>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#348-Enterococcus_faecalis>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1351>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  348
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Pseudomonadaceae>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo135621>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Bacteria>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo2>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Proteobacteria>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1224>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Pseudomonas>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo286>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Pseudomonas_aeruginosa_group>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo136841>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Enterococcus>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1350>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Lactobacillales>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo186826>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#360-Escherichia_coli>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo562>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  360
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Enterobacter>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo547>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Bacilli>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo91061>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#331-Enterobacter_aerogenes>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo548>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  331
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Enterococcaceae>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo81852>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Gammaproteobacteria>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1236>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Escherichia>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo561>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Gram_negative>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Gram_Negative>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Pseudomonadales>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo72274>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#713-Pseudomonas_aeruginosa>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo287>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  713
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Nonfermentative>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nonfermentative>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Enterobacteriales>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo91347>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Root>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Firmicutes>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1239>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    
+Individual: <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#0-Cellular_organisms>
+
+    Types: 
+        <http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo131567>
+    
+    Facts:  
+     <http://www.um.es/waspss/testOntologies/2015/1/microorganisms#hasId>  0
+    
+    

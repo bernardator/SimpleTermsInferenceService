@@ -1,0 +1,363 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.um.es/waspss/testOntologies/atcs"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.um.es/waspss/testOntologies/atcs">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Based on a complete ATC ontology from Samuel Croset:
+
+http://www.ebi.ac.uk/Rebholz-srv/atc/</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01C"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01CA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01CA04"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01CR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01CR02"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01DH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01DH02"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01G"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01GA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01GA01"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01X"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01XC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01XC01"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/public/ontologies/atc.owl#ATC"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J"/>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/public/ontologies/atc.owl#ATC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01"/>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01C"/>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01CA"/>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01C"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01CA04"/>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01CA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01CR"/>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01C"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01CR02"/>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01CR"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01D"/>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01DH"/>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01D"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01DH02"/>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01DH"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01G"/>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01GA"/>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01G"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01GA01"/>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01GA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01X"/>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01XC"/>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01X"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01XC01"/>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01XC"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01CA04"/>
+        <NamedIndividual IRI="#Amoxicilina_J01CA04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01CR02"/>
+        <NamedIndividual IRI="#Amoxicilina_e_inhibidores_de_la_enzima_J01CR02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01GA01"/>
+        <NamedIndividual IRI="#Estreptomicina_J01GA01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01DH02"/>
+        <NamedIndividual IRI="#Meropenem_J01DH02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.ebi.ac.uk/Rebholz-srv/atc/J01XC01"/>
+        <NamedIndividual IRI="#Ácido_fusídico_J01XC01"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasId"/>
+        <NamedIndividual IRI="#Amoxicilina_J01CA04"/>
+        <Literal datatypeIRI="&xsd;integer">858</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasId"/>
+        <NamedIndividual IRI="#Amoxicilina_e_inhibidores_de_la_enzima_J01CR02"/>
+        <Literal datatypeIRI="&xsd;integer">868</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasId"/>
+        <NamedIndividual IRI="#Estreptomicina_J01GA01"/>
+        <Literal datatypeIRI="&xsd;integer">906</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasId"/>
+        <NamedIndividual IRI="#Meropenem_J01DH02"/>
+        <Literal datatypeIRI="&xsd;integer">887</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasId"/>
+        <NamedIndividual IRI="#Ácido_fusídico_J01XC01"/>
+        <Literal datatypeIRI="&xsd;integer">920</Literal>
+    </DataPropertyAssertion>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasId"/>
+    </FunctionalDataProperty>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#labelDrools"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J</IRI>
+        <Literal datatypeIRI="&xsd;string">Antiinfectives_for_systemic_use</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J</IRI>
+        <Literal datatypeIRI="&xsd;string">ANTIINFECTIVES FOR SYSTEMIC USE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#labelDrools"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01</IRI>
+        <Literal datatypeIRI="&xsd;string">Antibacterials_for_systemic_use</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01</IRI>
+        <Literal datatypeIRI="&xsd;string">ANTIBACTERIALS FOR SYSTEMIC USE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#labelDrools"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01C</IRI>
+        <Literal datatypeIRI="&xsd;string">Betalactam_antibacterials_penicillins</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01C</IRI>
+        <Literal datatypeIRI="&xsd;string">BETA-LACTAM ANTIBACTERIALS, PENICILLINS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#labelDrools"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01CA</IRI>
+        <Literal datatypeIRI="&xsd;string">Penicillins_with_extended_spectrum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01CA</IRI>
+        <Literal datatypeIRI="&xsd;string">Penicillins with extended spectrum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#labelDrools"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01CA04</IRI>
+        <Literal datatypeIRI="&xsd;string">Amoxicillin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01CA04</IRI>
+        <Literal datatypeIRI="&xsd;string">amoxicillin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#labelDrools"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01CR</IRI>
+        <Literal datatypeIRI="&xsd;string">Combinations_of_penicillins_incl_betalactamase_inhibitors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01CR</IRI>
+        <Literal datatypeIRI="&xsd;string">Combinations of penicillins, incl. beta-lactamase inhibitors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#labelDrools"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01CR02</IRI>
+        <Literal datatypeIRI="&xsd;string">Amoxicillin_and_enzyme_inhibitor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01CR02</IRI>
+        <Literal datatypeIRI="&xsd;string">amoxicillin and enzyme inhibitor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#labelDrools"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01D</IRI>
+        <Literal datatypeIRI="&xsd;string">Other_betalactam_antibacterials</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01D</IRI>
+        <Literal datatypeIRI="&xsd;string">OTHER BETA-LACTAM ANTIBACTERIALS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#labelDrools"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01DH</IRI>
+        <Literal datatypeIRI="&xsd;string">Carbapenems</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01DH</IRI>
+        <Literal datatypeIRI="&xsd;string">Carbapenems</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#labelDrools"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01DH02</IRI>
+        <Literal datatypeIRI="&xsd;string">Meropenem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01DH02</IRI>
+        <Literal datatypeIRI="&xsd;string">meropenem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#labelDrools"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01G</IRI>
+        <Literal datatypeIRI="&xsd;string">Aminoglycoside_antibacterials</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01G</IRI>
+        <Literal datatypeIRI="&xsd;string">AMINOGLYCOSIDE ANTIBACTERIALS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#labelDrools"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01GA</IRI>
+        <Literal datatypeIRI="&xsd;string">Streptomycins</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01GA</IRI>
+        <Literal datatypeIRI="&xsd;string">Streptomycins</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#labelDrools"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01GA01</IRI>
+        <Literal datatypeIRI="&xsd;string">Streptomycin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01GA01</IRI>
+        <Literal datatypeIRI="&xsd;string">streptomycin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#labelDrools"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01X</IRI>
+        <Literal datatypeIRI="&xsd;string">Other_antibacterials</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01X</IRI>
+        <Literal datatypeIRI="&xsd;string">OTHER ANTIBACTERIALS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#labelDrools"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01XC</IRI>
+        <Literal datatypeIRI="&xsd;string">Steroid_antibacterials</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01XC</IRI>
+        <Literal datatypeIRI="&xsd;string">Steroid antibacterials</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#labelDrools"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01XC01</IRI>
+        <Literal datatypeIRI="&xsd;string">Fusidic_acid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/J01XC01</IRI>
+        <Literal datatypeIRI="&xsd;string">fusidic acid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#labelDrools"/>
+        <IRI>http://www.ebi.ac.uk/Rebholz-srv/atc/public/ontologies/atc.owl#ATC</IRI>
+        <Literal datatypeIRI="&xsd;string"></Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
