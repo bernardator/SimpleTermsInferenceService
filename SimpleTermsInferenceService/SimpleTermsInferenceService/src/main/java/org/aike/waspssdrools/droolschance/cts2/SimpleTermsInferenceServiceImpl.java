@@ -6,6 +6,9 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
+
+import org.aike.waspssdrools.droolschance.cts2.stis.options.SimpleTISCacheBehaviour;
+import org.aike.waspssdrools.droolschance.cts2.stis.options.SimpleTermsInferenceServiceOption;
 import org.apache.log4j.Logger;
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.EntityType;
@@ -30,16 +33,27 @@ import edu.mayo.cts2.framework.model.service.core.EntityNameOrURI;
 public class SimpleTermsInferenceServiceImpl {
 
 	
+	
+	
 	Map<String,OWLOntology> ontologies  = new HashMap<String,OWLOntology>();
 	Map<String,OWLReasoner> reasoners   = new HashMap<String,OWLReasoner>();
 
 	OWLOntologyManager      manager     = OWLManager.createOWLOntologyManager(); 
     OWLDataFactory          factory     = manager.getOWLDataFactory(); 
 
+    /** Cache with all the hierarchical relations of the individuals*/
     Map<IRI,Set<IRI>> parents = new ConcurrentHashMap<IRI,Set<IRI>>();
     
+    /////// Default parameters ///////
+    SimpleTISCacheBehaviour cacheBehaviour = SimpleTISCacheBehaviour.EAGER;
     
     public SimpleTermsInferenceServiceImpl() {}
+    
+    public void setOption (SimpleTermsInferenceServiceOption opt) {
+    	if (opt instanceof SimpleTISCacheBehaviour) {
+    		cacheBehaviour = (SimpleTISCacheBehaviour)opt;
+    	}
+    }
     
     
     public void addOntology(String namespace, File doc) throws OWLOntologyCreationException {
@@ -48,6 +62,21 @@ public class SimpleTermsInferenceServiceImpl {
     	
     	ontologies.put(namespace, ontology);
     	reasoners.put(namespace,  reasoner);
+    	
+    	if (cacheBehaviour==SimpleTISCacheBehaviour.EAGER) {
+    		cacheEntireOntology(ontology,reasoner);
+    	}
+    }
+    
+    private void cacheEntireOntology(OWLOntology ontology, OWLReasoner reasoner) {
+    	for (OWLNamedIndividual ind : ontology.getIndividualsInSignature()) {
+    		NodeSet<OWLClass> superClasses = reasoner.getTypes(ind, false);    					
+    		Set<IRI> superClassesIris = new HashSet<IRI>();
+    		for (OWLClass c : superClasses.getFlattened()){
+    			superClassesIris.add(c.getIRI());
+    		}
+    		parents.put(ind.getIRI(), superClassesIris);
+    	}
     }
     
     public OWLOntologyManager getManager() { return manager;  }
@@ -92,17 +121,14 @@ public class SimpleTermsInferenceServiceImpl {
     		}
     		
     		
-    		OWLClass ac = null;
     		OWLClass dc = null;
     		OWLNamedIndividual dInd = null;
     		
-    		// We obtain the ancestor class from the ontology, checking all the possible mistakes
+    		// We check if the ancestor is a class in the ontology, checking all the possible mistakes
     		Set<OWLEntity> aEntities = onto.getEntitiesInSignature(aIri);
     		if (aEntities.size()==1) {
     			for (OWLEntity e : aEntities) {
-    				if (e.getEntityType().equals(EntityType.CLASS)) {
-    					ac = e.asOWLClass();
-    				} else {
+    				if (!e.getEntityType().equals(EntityType.CLASS)) {
     	    			Logger.getLogger(SimpleTermsInferenceServiceImpl.class).error("Ontology "+namespace+": IRI: "+aIri+" should be a class, and is a "+e.getEntityType()+". 'denotes' operator could not work properly!!!");
     	    			return false; 
     				}
@@ -139,7 +165,8 @@ public class SimpleTermsInferenceServiceImpl {
 						currentNodeParents.add(parentIri);
 						if (parentIri.equals(aIri)) found = true;
 					}
-					parents.put(dIri, currentNodeParents);
+					if (cacheBehaviour!=SimpleTISCacheBehaviour.NONE)
+						parents.put(dIri, currentNodeParents);
 					
 					return found;
     			}

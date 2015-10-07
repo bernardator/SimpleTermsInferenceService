@@ -8,6 +8,7 @@ import org.aike.waspssdrools.droolschance.cts2.services.SimpleConceptDomainReadS
 import org.aike.waspssdrools.droolschance.cts2.services.SimpleEntityDescriptionQueryService;
 import org.aike.waspssdrools.droolschance.cts2.services.SimpleResolvedValueSetResolutionService;
 import org.aike.waspssdrools.droolschance.cts2.services.SimpleValueSetDefinitionResolutionService;
+import org.aike.waspssdrools.droolschance.cts2.stis.options.SimpleTermsInferenceServiceOption;
 import org.drools.shapes.terms.operations.internal.TermsInferenceService;
 import org.semanticweb.owlapi.model.OWLOntologyCreationException;
 
@@ -29,6 +30,7 @@ public class SimpleTermsInferenceService implements TermsInferenceService {
 	SimpleTermsInferenceServiceImpl ontoManager;
 	Map<Class<? extends Cts2Profile>,BaseService> services;
     
+	
 	public SimpleTermsInferenceService() {
 		ontoManager = new SimpleTermsInferenceServiceImpl();
 		
@@ -40,7 +42,18 @@ public class SimpleTermsInferenceService implements TermsInferenceService {
 		services.put(ResolvedValueSetResolutionService.class  , new SimpleResolvedValueSetResolutionService());
 		services.put(ValueSetDefinitionResolutionService.class, new SimpleValueSetDefinitionResolutionService());
 	}
+
+	public SimpleTermsInferenceService(SimpleTermsInferenceServiceOption... options) {
+		this();
+		setOptions(options);
+	}
+
 	
+	public void setOptions(SimpleTermsInferenceServiceOption... options) {
+		for (SimpleTermsInferenceServiceOption opt : options) {
+			ontoManager.setOption(opt);
+		}
+	}
     
 	///////////////////////////////////////////////////////////////////
 	// 'UNIQUE' METHODS
