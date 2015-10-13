@@ -1,0 +1,36 @@
+package org.aike.waspssdrools.droolschance.cts2.test.denotes.vocabulary;
+
+import java.net.URI;
+import org.drools.shapes.terms.ConceptCoding;
+import cts2.mayo.edu.terms_metamodel.terms.ConceptDescriptor;
+
+/**  Constant definitions for ontology 
+ *  src/main/resources/ontologies/microorganisms.owl
+ **/
+public class VocabularyMicro { 
+
+	public static final String DEFAULT_IRI = "http://www.um.es/waspss/testOntologies/2015/1/microorganisms";
+	public static final ConceptDescriptor Bacilli = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo91061") , 	 "Bacilli" , 	 "Bacilli" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor Bacteria = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo2") , 	 "Bacteria" , 	 "Bacteria" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor CellularOrganisms = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo131567") , 	 "Cellular_organisms" , 	 "Cellular_organisms" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor Enterobacter = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo547") , 	 "Enterobacter" , 	 "Enterobacter" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor EnterobacterAerogenes = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo548") , 	 "Enterobacter_aerogenes" , 	 "Enterobacter_aerogenes" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor Enterobacteriaceae = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo543") , 	 "Enterobacteriaceae" , 	 "Enterobacteriaceae" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor Enterobacteriales = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo91347") , 	 "Enterobacteriales" , 	 "Enterobacteriales" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor Enterococcaceae = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo81852") , 	 "Enterococcaceae" , 	 "Enterococcaceae" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor Enterococcus = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1350") , 	 "Enterococcus" , 	 "Enterococcus" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor EnterococcusFaecalis = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1351") , 	 "Enterococcus_faecalis" , 	 "Enterococcus_faecalis" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor Escherichia = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo561") , 	 "Escherichia" , 	 "Escherichia" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor EscherichiaColi = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo562") , 	 "Escherichia_coli" , 	 "Escherichia_coli" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor Gammaproteobacteria = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1236") , 	 "Gammaproteobacteria" , 	 "Gammaproteobacteria" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor Firmicutes = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1239") , 	 "Firmicutes" , 	 "Firmicutes" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor GramNegative = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Gram_negative") , 	 "Gram_negative" , 	 "Gram_negative" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor Lactobacillales = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo186826") , 	 "Lactobacillales" , 	 "Lactobacillales" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor Nonfermentative = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nonfermentative") , 	 "Nonfermentative" , 	 "Nonfermentative" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor Proteobacteria = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo1224") , 	 "Proteobacteria" , 	 "Proteobacteria" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor Pseudomonadaceae = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo135621") , 	 "Pseudomonadaceae" , 	 "Pseudomonadaceae" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor Pseudomonadales = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo72274") , 	 "Pseudomonadales" , 	 "Pseudomonadales" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor Pseudomonas = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo286") , 	 "Pseudomonas" , 	 "Pseudomonas" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor PseudomonasAeruginosa = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo287") , 	 "Pseudomonas_aeruginosa" , 	 "Pseudomonas_aeruginosa" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");
+	public static final ConceptDescriptor PseudomonasAeruginosaGroup = new ConceptCoding( URI.create ("http://www.um.es/waspss/testOntologies/2015/1/microorganisms/Nodo136841") , 	 "Pseudomonas_aeruginosa_group" , 	 "Pseudomonas_aeruginosa_group" , 	 "http://www.um.es/waspss/testOntologies/2015/1/microorganisms", "VocabularyMicro");	
+}
